@@ -1,0 +1,50 @@
+/*
+
+   Indiviual Layout for the all html file
+   Author: ***REMOVED***
+   Date:   5 Aug 2019
+   
+   Filename: indiviualproducts.css
+
+*/
+
+
+/* Specifications text layout */
+ul.specifications > li {
+    padding: 10px 0;
+    font-size: 25px;
+}
+
+ul.specifications ul {
+   list-style: square;
+   font-size: 19px;
+}
+
+ul.specifications ul > li{
+    padding: 5px 0;
+}
+
+/* Form layout */
+input[type=radio] {
+    cursor: pointer;
+}
+
+legend {
+    font-size: 25px;
+}
+
+.custom-radio label{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Submit Btn */
+#submit {
+    border: none;
+    padding: 0.4em 3em;
+    background-color: rgba(219, 227, 230, 0.788);
+    font-size: 1.15em;
+    font-weight: 400;
+    border-radius: 10px;
+    cursor: pointer;
+}

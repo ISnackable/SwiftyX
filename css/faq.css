@@ -1,0 +1,79 @@
+/* 
+
+   FAQ Layout for the all html file
+   Author: ***REMOVED***
+   Date:   1 August 2019
+   
+   Filename: faq.css
+
+*/
+
+/* Header image */
+.headerImg {
+    background: linear-gradient(to right, rgba(144, 238, 144, 0.5) 10%, rgba(173, 216, 230, 0.5) 30%, rgba(221, 161, 221, 0.5) 60%, rgba(218, 165, 32, 0.5) 90%);
+    width: 100%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.headerImg img {
+    width: 25%;
+    height: 25%;
+    padding: 2em;
+}
+
+/* Accordion Styling */
+#accordion .card,
+#accordion .card:last-child .card-header {
+  border: none;
+  background-color: transparent;
+}
+
+.faqTitle {
+    font-size: 25px;
+}
+
+.card-header {
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.card-link, .card-link:hover {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.card-header > a:after {
+  content: "\f078"; /* fa-chevron-down */
+  font-family: 'Font Awesome\ 5 Free';
+  position: absolute;
+  right: 0;
+}
+.card-header > a[aria-expanded="true"]:after {
+  content: "\f077"; /* fa-chevron-up */
+}
+
+.card-body {
+  color: rgba(48, 69, 92, 0.8);
+  font-weight: 500;
+}
+
+/* Navigation to Contact Page text bottom of the page */
+p#navigateContact {
+  margin: 6rem 0;
+  font-size: 1.25em;
+}
+
+p#navigateContact a {
+    text-align: center;
+    text-decoration: none;
+    color: hsl(225, 61%, 57%);
+}
+
+p#navigateContact a:hover {
+  color: rgb(102, 184, 255);
+}
+
+p#navigateContact a:active {
+    color: rgb(166, 42, 42);
+}

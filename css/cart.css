@@ -1,0 +1,85 @@
+/*
+   Cart Style Sheet for the SwiftyX Bussiness Website
+   Author: ***REMOVED***
+   Date:   11 Aug 2019
+   
+   Filename: cart.css
+
+*/
+/* Container for the content */
+.container {
+    margin-bottom: 100px;
+}
+
+/* Input select for quantity */
+.qty {
+    background: transparent;
+    border: none;
+}
+
+/* Remove button style */
+.removeBtn {
+    background: transparent;
+    color: rgb(114, 134, 250);
+}
+
+/* The cart box style, inside container. */
+.cart {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    padding: 30px;
+    -webkit-box-shadow: 0 0 8px #888888;
+    box-shadow: 0 0 8px #888888;
+}
+
+/* The price box style, inside contianer */
+.prices {
+    height: 65%;
+    padding: 0 30px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 10px;
+    overflow: hidden;
+}
+
+/* The price h3 word style */
+.prices h3 {
+	font-size: 1.7em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* The price items style */
+.prices .prices-item {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* The price paragraph word style */
+.prices .text{
+	font-size: 1em;
+}
+
+.prices .price{
+	font-size: 1em;
+	float: right;
+}
+
+/* btn to checkout style */
+.btn {
+    margin-top: 20px;
+    background-color: rgb(231, 231, 231);
+    border-color: #ccc;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* Media to make the price not sticky when small */
+@media screen and (max-width: 991px) {
+    .prices {
+        position: relative;
+        top: 0px;
+        overflow: visible;
+    }
+}

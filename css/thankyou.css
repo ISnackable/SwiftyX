@@ -1,0 +1,25 @@
+/*
+   Thankyou Page Style Sheet for the SwiftyX Bussiness Website
+   Author: ***REMOVED***
+   Date:   11 Aug 2019
+   
+   Filename: thankyou.css
+
+*/
+h3 {
+    margin-top: 200px; 
+    font-size: 35px;
+    font-weight: 700;
+}
+
+h4 {
+    margin-top: 10px; 
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.btn {
+    margin: 200px 0;
+    border-radius: 50px;
+    font-size: 1.8rem;
+}

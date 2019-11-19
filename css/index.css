@@ -1,0 +1,226 @@
+
+/*
+
+   Index Layout for the all html file
+   Author: ***REMOVED***
+   Date:   27 July 2019
+   
+   Filename: index.css
+
+*/
+
+html {
+  overflow-x: hidden;
+}
+
+.slideshowFigure {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.507);
+  box-shadow: 0 1px 5px rgb(128, 128, 128);
+}
+
+/* Slideshow Css */
+/* Position the image container */
+.slideshow {
+  position: relative;
+  overflow: hidden;
+
+}
+
+.slides img {
+  width: 100%;
+  animation: fadeIn ease 1.25s;
+  -webkit-animation: fadeIn ease 1.25s;
+  -moz-animation: fadeIn ease 1.25s;
+  -o-animation: fadeIn ease 1.25s;
+  -ms-animation: fadeIn ease 1.25s;
+}
+
+/* Animation for slideshow */
+@keyframes fadeIn{
+ 0% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@-moz-keyframes fadeIn {
+ 0% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@-webkit-keyframes fadeIn {
+ 0% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@-o-keyframes fadeIn {
+ 0% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@-ms-keyframes fadeIn {
+ 0% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+/* Next & previous buttons */
+.slideshowPrev, .slideshowNext {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  background-color: rgba(0, 0, 0, 0.336);
+  transition: 0.5s;
+}
+
+.slideshowPrev > .fa-caret-left, .slideshowNext > .fa-caret-right {
+  color: rgb(226, 226, 226);
+  font-size: 3rem;
+}
+
+.slideshowPrev:hover, .slideshowNext:hover {
+  background-color: rgba(0, 0, 0, 0.788);
+}
+
+.slideshowPrev {
+  left: 0;
+  border-radius: 0 7px 7px 0;
+}
+
+.slideshowNext {
+  right: 0;
+  border-radius: 7px 0 0 7px;
+}
+
+/* Caption text */
+.text {
+ color: rgb(255, 255, 255);
+ -webkit-text-stroke: 1px rgba(50, 50, 50, 0.60);
+ font-size: 2.8rem;
+ position: absolute;
+ bottom: 4.5rem;
+ width: 100%;
+ padding: 8px 12px;
+}
+
+/* Dots */
+.circle {
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0 2px;
+  color: rgb(233, 133, 133);
+  display: inline-block;
+  transition: color 0.6s ease;
+}
+
+.currentSlide, .dot:hover {
+  color: rgb(34, 34, 34);
+}
+
+/* Text above each sections */
+h3 {
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: -10px;
+  padding: 10px 0px;
+}
+
+h3 span {
+  letter-spacing: 5px;
+  padding: 0 50px;
+  word-spacing: 10px;
+}
+
+/* Make text above each sections smaller when width <991px */
+@media screen and (max-width: 991px) {
+  h3 {
+    letter-spacing: -20px;
+  }
+  
+  h3 span {
+    letter-spacing: 2px;
+    word-spacing: 20px;
+  }
+}
+
+section .row {
+  background-color: #f2f2f2;
+  text-align: center;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.507);
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.507);
+  padding: 60px;
+}
+
+/* Customer Quote Section */
+.customerQuote > .row > .col-12 img {
+  width: 210px;
+  height: 210px;
+  margin: 30px;
+}
+
+.customerQuote > .row > .col-12 > p > span {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.customerQuote > .row > .col-12 > p {
+  font-size: 22px;
+}
+
+img.avatar {
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+}
+
+/* Featured Section */
+section.featuredSection > .row p.featuredTitle {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+section.featuredSection > .row p.featuredDescription {
+  font-size: 25px;
+}
+
+.featuredSectionImage img {
+  height: 250px;
+  width: 215px;
+}
+
+.purchaseNow > .row > .col img {
+  height: 250px;
+  width: 215px;
+}
+
+/* BuyNow Btn */
+#buyNow {
+  margin-top: -1em;
+  border: 0.5px solid rgb(0, 0, 0);
+  padding: 0.4em 2em;
+  background-color: rgb(240, 240, 240);
+  font-size: 1.5em;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#buyNow a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}

@@ -1,0 +1,49 @@
+/*
+   Product page Style Sheet for the SwiftyX Bussiness Website
+   Author: ***REMOVED***
+   Date:   11 Aug 2019
+   
+   Filename: product.css
+
+*/
+
+/* Modal button style */
+.modalbtn {
+   border-radius: 50px;
+   background-color: rgba(184, 184, 184, 0.411);
+   font-size: 20px;
+}
+
+
+/* Text above products */
+h2 {
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    color: inherit;
+    font-size: 2em;
+    text-decoration: none;
+    text-shadow: 0.2em 0.5em 1em;
+    -webkit-text-stroke: 0.1px rgb(50, 50, 50);
+}
+
+h2#lightgreen {
+   color: rgb(144, 238, 144);
+}
+
+h2#plum {
+  color: rgb(221, 160, 221);
+}
+
+h2#lightblue {
+  color: rgb(173, 216, 230);
+}
+
+h2#goldenrod {
+  color: rgb(218, 165, 32);
+}
+
+/* Products figure */
+.products {
+    margin-bottom: 5rem;
+}

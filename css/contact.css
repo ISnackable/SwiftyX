@@ -1,0 +1,42 @@
+/*
+   Contact Style Sheet for the SwiftyX Bussiness Website
+   Author: ***REMOVED***
+   Date:   11 Aug 2019
+   
+   Filename: contact.css
+
+*/
+/* Tagline style */
+.container p {
+    font-size: 20px;  
+}
+
+/* Form styling */
+form input[type=text], textarea {
+    padding: 0.2em;
+    font-size: inherit;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: none;
+  }
+ 
+ form input[type=email], form input[type=text]  {
+    padding: 0.2em;
+    font-size: inherit;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+ 
+ .btn-primary {
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    border: none;
+    background-color: #a09492ad;
+    color: rgb(0, 0, 0);
+ }
+
+ 
+/* Form input boxes */
+input, textarea {
+   padding-right: 30px !important;
+}

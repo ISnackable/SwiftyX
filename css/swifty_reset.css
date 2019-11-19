@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/*
+   Reset Style Sheet for the SwiftyX Bussiness Website
+   Author: ***REMOVED***
+   Date:   3 May 2019
+   
+   Filename: swifty_reset.css
+
+*/
+
+/* Structural Styles */
+
+article, aside, figcaption, figure, footer, header, main, nav, section {
+   display:block;
+}
+
+* {
+   -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+   -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+ }
+
+
+/* Typographic Styles */
+
+address, article, aside, blockquote, body, cite, div,
+dl, dt, dd, em, figcaption, figure, footer, h1, h2, h3, h4, h5, h6, header, html, img, li,
+main, nav, ol, p, section, span, ul {
+   background: transparent;
+   font-size: 100%;
+}
+
+nav ul {
+   list-style: none;
+   list-style-image: none;
+}
+
+nav a {
+   text-decoration: none;
+}
+
+body {
+   line-height: 1;
+}
