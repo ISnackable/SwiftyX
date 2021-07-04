@@ -1,6 +1,6 @@
 /*
    Citation Style Sheet for the SwiftyX Bussiness Website
-   Author: ***REMOVED***
+   Author: 
    Date:   17 Aug 2019
    
    Filename: citation.css
@@ -9,15 +9,15 @@
 
 /* Citaiton Figures border */
 .row > div > figure {
-    background-color: rgba(230, 230, 230, 0.459);
-    padding: 1rem;
-    border-radius: 25px;
-    border-style: solid;
-    border-width: 1.75px;
-    border-color: rgba(36, 33, 33, 0.61);
+  background-color: rgba(230, 230, 230, 0.459);
+  padding: 1rem;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 1.75px;
+  border-color: rgba(36, 33, 33, 0.61);
 }
 
 /* Citation image  */
-.row > div > figure > .figure-img{
-    border-radius: 20px;
+.row > div > figure > .figure-img {
+  border-radius: 20px;
 }

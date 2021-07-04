@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap");
 
 /*
    Swifty Styling Style Sheet for the SwiftyX Bussiness Website
-   Author: ***REMOVED***
+   Author: 
    Date:   11 Aug 2019
    
    Filename: swifty_style.css
@@ -10,14 +10,15 @@
 */
 /* Body Content */
 /* Smooth Scroll */
-body, html {
+body,
+html {
   height: 100%;
   scroll-behavior: smooth;
 }
 
 /* Font style */
 body {
-  font-family: 'Source Serif Pro', Verdana, Geneva, Arial, sans-serif; 	
+  font-family: "Source Serif Pro", Verdana, Geneva, Arial, sans-serif;
   background-color: #f5f5f5;
 }
 
@@ -42,7 +43,7 @@ body {
 
 /* Header styles */
 h1 {
-  font-size: 2.5em; 
+  font-size: 2.5em;
 }
 
 h2 {
@@ -70,43 +71,56 @@ h2#gradientSwiftyLegacy:first-letter {
 }
 
 h2#gradientSwifty {
-  background: linear-gradient(to right, rgb(112, 202, 112) 0%, rgb(79, 201, 79) 9%);
+  background: linear-gradient(
+    to right,
+    rgb(112, 202, 112) 0%,
+    rgb(79, 201, 79) 9%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1.5px rgba(50, 50, 50, 0.60);
-  
+  -webkit-text-stroke: 1.5px rgba(50, 50, 50, 0.6);
 }
 
 h2#gradientSwiftyPro {
-  background: linear-gradient(to right, rgb(173, 216, 230) 0%, rgb(112, 183, 224) 9%);
+  background: linear-gradient(
+    to right,
+    rgb(173, 216, 230) 0%,
+    rgb(112, 183, 224) 9%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1.5px rgba(50, 50, 50, 0.60);
+  -webkit-text-stroke: 1.5px rgba(50, 50, 50, 0.6);
 }
 
 h2#gradientSwiftyPlus {
-  background: linear-gradient(to right, rgb(221, 160, 221) 0%, rgb(230, 89, 235) 9%);
+  background: linear-gradient(
+    to right,
+    rgb(221, 160, 221) 0%,
+    rgb(230, 89, 235) 9%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1.5px rgba(50, 50, 50, 0.60);
+  -webkit-text-stroke: 1.5px rgba(50, 50, 50, 0.6);
 }
 
 h2#gradientSwiftyLegacy {
-  background: linear-gradient(to right, rgb(218, 165, 32) 0%, rgb(240, 208, 67) 9%);
+  background: linear-gradient(
+    to right,
+    rgb(218, 165, 32) 0%,
+    rgb(240, 208, 67) 9%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1.5px rgba(50, 50, 50, 0.60);
+  -webkit-text-stroke: 1.5px rgba(50, 50, 50, 0.6);
 }
-
-
 
 /* Sitemap Style */
 footer {
@@ -115,7 +129,10 @@ footer {
   clear: both;
 }
 
-footer p, footer h5, footer i, .footer-copyright{
+footer p,
+footer h5,
+footer i,
+.footer-copyright {
   color: #f6f6f6;
 }
 
@@ -133,14 +150,14 @@ footer a {
 }
 
 .invalidIcon {
-    margin-top: -1.65rem;
-    margin-right: 0.6rem;
-    float: right;
+  margin-top: -1.65rem;
+  margin-right: 0.6rem;
+  float: right;
 }
 
 .invalidText {
-    display: block;
-    font-style: italic;
-    color: rgba(255, 0, 0, 0.76);
-    margin-top: 5px;
+  display: block;
+  font-style: italic;
+  color: rgba(255, 0, 0, 0.76);
+  margin-top: 5px;
 }

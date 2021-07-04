@@ -1,7 +1,7 @@
 /* 
 
    FAQ Layout for the all html file
-   Author: ***REMOVED***
+   Author: 
    Date:   1 August 2019
    
    Filename: faq.css
@@ -10,15 +10,21 @@
 
 /* Header image */
 .headerImg {
-    background: linear-gradient(to right, rgba(144, 238, 144, 0.5) 10%, rgba(173, 216, 230, 0.5) 30%, rgba(221, 161, 221, 0.5) 60%, rgba(218, 165, 32, 0.5) 90%);
-    width: 100%;
-    border-bottom: 1px solid rgb(0, 0, 0);
+  background: linear-gradient(
+    to right,
+    rgba(144, 238, 144, 0.5) 10%,
+    rgba(173, 216, 230, 0.5) 30%,
+    rgba(221, 161, 221, 0.5) 60%,
+    rgba(218, 165, 32, 0.5) 90%
+  );
+  width: 100%;
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .headerImg img {
-    width: 25%;
-    height: 25%;
-    padding: 2em;
+  width: 25%;
+  height: 25%;
+  padding: 2em;
 }
 
 /* Accordion Styling */
@@ -29,23 +35,24 @@
 }
 
 .faqTitle {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .card-header {
-    background-color: transparent;
-    border-bottom: none;
+  background-color: transparent;
+  border-bottom: none;
 }
 
-.card-link, .card-link:hover {
-    color: rgb(0, 0, 0);
-    font-weight: 600;
-    letter-spacing: 1px;
+.card-link,
+.card-link:hover {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .card-header > a:after {
   content: "\f078"; /* fa-chevron-down */
-  font-family: 'Font Awesome\ 5 Free';
+  font-family: "Font Awesome\ 5 Free";
   position: absolute;
   right: 0;
 }
@@ -65,9 +72,9 @@ p#navigateContact {
 }
 
 p#navigateContact a {
-    text-align: center;
-    text-decoration: none;
-    color: hsl(225, 61%, 57%);
+  text-align: center;
+  text-decoration: none;
+  color: hsl(225, 61%, 57%);
 }
 
 p#navigateContact a:hover {
@@ -75,5 +82,5 @@ p#navigateContact a:hover {
 }
 
 p#navigateContact a:active {
-    color: rgb(166, 42, 42);
+  color: rgb(166, 42, 42);
 }
